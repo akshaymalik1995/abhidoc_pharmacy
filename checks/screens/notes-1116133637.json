@@ -1,0 +1,100 @@
+[
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1a-empty",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1b-matches",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.2-statement",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3a-write-off-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3b-no-reason",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3c-sent",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Sent PCW/26-27/000070 for approval."
+  ]
+ },
+ {
+  "flow": "9-payment-approvals",
+  "step": "9.1-list",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "9-payment-approvals",
+  "step": "9.2a-approve-ask",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "9-payment-approvals",
+  "step": "9.2b-reject-ask",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "9-payment-approvals",
+  "step": "9.3-rejected",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "PCW/26-27/000070 rejected."
+  ]
+ },
+ {
+  "flow": "9-payment-approvals",
+  "step": "9.4-own-write-offs-cleared",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "PCW/26-27/000070 rejected."
+  ]
+ }
+]

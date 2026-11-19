@@ -1,0 +1,56 @@
+[
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1a-empty",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1b-matches",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.2-statement",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3a-write-off-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3b-no-reason",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3c-sent",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Sent PCW/26-27/000067 for approval."
+  ]
+ }
+]

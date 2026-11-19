@@ -1,0 +1,329 @@
+[
+ {
+  "flow": "1-cashier-sessions",
+  "step": "1.1-list",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "1-cashier-sessions",
+  "step": "1.2a-open-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "1-cashier-sessions",
+  "step": "1.3-session-page",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "1-cashier-sessions",
+  "step": "FAILED",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "1-cashier-sessions",
+  "failed": "locator.click: Timeout 15000ms exceeded."
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.1-empty",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.2-found",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.3a-collect-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.3b-collected",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Advance collected."
+  ]
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.4a-refund-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Advance collected."
+  ]
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.4b-refunded",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Advance refunded."
+  ]
+ },
+ {
+  "flow": "2-patient-advance",
+  "step": "2.5-bills-same-patient",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Advance refunded."
+  ]
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.1-open",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.2-searched",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.3a-ticked",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.3b-collected",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Collected ₹2.00 on 1 bill."
+  ]
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.4-from-advance",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Collected ₹2.00 on 1 bill.",
+   "Collected ₹8.00 on 1 bill."
+  ]
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.5a-refund-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Collected ₹8.00 on 1 bill."
+  ]
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.5b-refunded",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "PSL/26-27/002397: Refunded 1.00 against PSL/26-27/002397. Still refundable ₹1.00."
+  ]
+ },
+ {
+  "flow": "3-cash-counter",
+  "step": "3.6-bills",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "PSL/26-27/002397: Refunded 1.00 against PSL/26-27/002397. Still refundable ₹1.00."
+  ]
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.1-empty",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.2-found",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.5a-save-nothing-selected",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Select an unpaid bill and enter the amount."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.3-all-selected",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.4-smaller-total",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "4-receipt-entry",
+  "step": "4.5b-saved",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Choose a pharmacy location first."
+  ]
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1a-empty",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.1b-matches",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [
+   "Find a patient by visit number, MRN, or name and phone."
+  ],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.2-statement",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3a-write-off-form",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3b-no-reason",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "5-patient-bills",
+  "step": "5.3c-sent",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Sent PCW/26-27/000066 for approval."
+  ]
+ },
+ {
+  "flow": "6-session-closing",
+  "step": "FAILED",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": [
+   "Sent PCW/26-27/000066 for approval."
+  ]
+ },
+ {
+  "flow": "6-session-closing",
+  "failed": "no open session to close"
+ },
+ {
+  "flow": "7-cash-register",
+  "step": "7.1-today",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "7-cash-register",
+  "step": "7.2a-by-day",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "7-cash-register",
+  "step": "7.2b-by-user",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ },
+ {
+  "flow": "8-payer-claims",
+  "step": "8.1-open",
+  "waitingWords": false,
+  "pageSideways": false,
+  "sentences": [],
+  "notices": []
+ }
+]
